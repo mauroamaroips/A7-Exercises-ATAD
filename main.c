@@ -87,6 +87,18 @@ bool arrayMean(int arr[], int arrLength, double *mean) {
 
  // Ponteiros e passagem de argumentos - 4
 
+/**
+ * @brief Function that returns false (0) if array is empty or true(1) if all operations pass.
+ * 
+ * @param arr Takes as parameter an array of integers
+ * @param arrLength Takes as parameter the length of array
+ * @param min Takes a pointer for min
+ * @param max Takes a pointer for max
+ * @param mean Takes a pointer for mean
+ * @return true Returns true if operations succeed
+ * @return false Returns false if array is empty
+ */
+
 bool arrayStats(int arr[], int arrLength, int *min, int *max, double *mean){
     
     if(arrLength <= 0) return false;
